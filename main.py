@@ -12,8 +12,6 @@ while x < 20000:
     
     x = x + 1
     
-    print("Running stuff")
-    
     try:
         value=pulse.read_u16()
         file.write(str(value)+"\n")
